@@ -4,8 +4,8 @@
   "main": "index.js",
   "author": "nicolas",
   "license": "MIT",
-  "type": "module",
   "dependencies": {
+    "express": "^4.19.2",
     "puppeteer": "^22.12.0"
   },
   "description": "",
