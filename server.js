@@ -8,7 +8,7 @@ app.listen(3000, () => {
   console.log('hello world');
 })
 
-app.get('/scraping', (req,res) => {
+app.get('/', (req,res) => {
   res.send('teste');
 });
 
