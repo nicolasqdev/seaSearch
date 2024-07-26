@@ -6,7 +6,7 @@ import puppeteer from 'puppeteer';
 
 
     // Launch the browser and open a new blank page
-    const browser = await puppeteer.launch({headless: false, browserWSEndpoint: SBR_WS_ENDPOINT});
+    const browser = await puppeteer.launch({headless: true, browserWSEndpoint: SBR_WS_ENDPOINT});
     const page = await browser.newPage();
     
     // Navigate the page to a URL
