@@ -8,6 +8,10 @@ app.listen(3000, () => {
   console.log('hello world');
 })
 
+app.get('/scraping', (req,res) => {
+  res.send('teste');
+});
+
 app.get('/scraping', async (req,res) => {
   //proxy server
   const SBR_WS_ENDPOINT = 'wss://brd-customer-hl_15810fe2-zone-scraping_browser2:25j1lhqe70n1@brd.superproxy.io:9222';
